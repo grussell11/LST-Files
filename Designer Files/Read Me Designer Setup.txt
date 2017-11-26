@@ -1,0 +1,6 @@
+In Designer, under Tools/Options/Designer Defaults...
+set the Graphics Root to either:
+ - "LST Original" for the original LiveSmart app designs
+ - "LST v2" for the new (2017) interface design
+
+The different formats (iPhone 5, iPad, etc.) will be available in the Elements window under the "Skin" dropdown menu.

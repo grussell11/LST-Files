@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <anyType xsi:type="SerializeContainer">
+        <objtype>AppData</objtype>
+        <obj xsi:type="HSTouchData">
+            <MenuPopupLocation>UpperLeft</MenuPopupLocation>
+            <MenuSelectSize>175</MenuSelectSize>
+            <DefaultSkin>iPad</DefaultSkin>
+            <DefaultWidth>1024</DefaultWidth>
+            <DefaultHeight>768</DefaultHeight>
+            <DefaultScreenType>iPad</DefaultScreenType>
+            <DefaultBackMode>BACK_COLOR</DefaultBackMode>
+            <DefaultBackColor>-1</DefaultBackColor>
+            <DefaultNotes />
+            <DefaultName>Dave test old graphics</DefaultName>
+            <DefaultIPAddress />
+            <DefaultUser />
+            <DefaultPass />
+            <MainScreenTimeout>5</MainScreenTimeout>
+            <MainScreenReturn>false</MainScreenReturn>
+            <PasscodeTimeout>5</PasscodeTimeout>
+            <FontScaling>1</FontScaling>
+            <MaxImageWidth>0</MaxImageWidth>
+            <MaxImageHeight>0</MaxImageHeight>
+            <Zipcode>92807</Zipcode>
+            <Orientation>Landscape</Orientation>
+            <AutoScale>false</AutoScale>
+            <GraphData />
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>ScreenData</objtype>
+        <obj xsi:type="ScreenData">
+            <Screen_Text />
+            <Screen_BackgroundColor>-1</Screen_BackgroundColor>
+            <Screen_BackgroundMode>1</Screen_BackgroundMode>
+            <Screen_BackgroundImageLayout>0</Screen_BackgroundImageLayout>
+            <Animate_Style>None</Animate_Style>
+            <Animate_Delay>500</Animate_Delay>
+            <AlphaValue>255</AlphaValue>
+            <Device_Types />
+            <ID>31407.3541731</ID>
+            <ScreenTitle>New Screen</ScreenTitle>
+            <IsMain>true</IsMain>
+            <Passcode />
+            <Orientation>Portrait</Orientation>
+            <LinkedScreen />
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>1024</Width>
+            <Height>768</Height>
+        </obj>
+    </anyType>
+</ArrayOfAnyType>

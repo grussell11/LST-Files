@@ -1,0 +1,46 @@
+﻿'===================================================================
+' Sets the status summary virtual device to a string reflecting the
+' current battery status of the specified devices.
+' Modification of exiting Private Sub SetLightSummaryStatus() 
+Private Sub SetBatterySummaryStatus()
+    Dim summary As String = ""
+    Dim summaryValue As Integer = 0
+    Dim batteryLow As Integer = 0
+    Dim batteryLowThreshold as Integer = 10
+    Dim deviceCount As Integer
+    deviceCount = batteryDeviceNames.Length
+ 
+    Dim n As Integer
+    For n = 0 To deviceCount - 1
+        Dim deviceRef As Integer
+        deviceRef = hs.GetDeviceRefByName(batteryDeviceNames(n))
+        If deviceRef > 0 Then
+            Dim value As Integer
+            value = hs.DeviceValue(deviceRef)
+            If value > 0 Then
+                If batteryLow < batteryLowThreshold Then
+                    summary = summary + ", "
+                End If
+                summary = summary + batteryDeviceNames(n)
+                batteryLow = batteryLow + 1
+            End If
+            UpdateLastChangedVirtualDevice(batteryDeviceNames(n))
+        Else
+            hs.WriteLog("LiveSmart", String.Format("Warning: '{0}' device not found", batteryDeviceNames(n)))
+        End If
+    Next n
+
+    If batteryLow = 0 Then
+        summary = "All batteries are good"
+        summaryValue = 0
+    ElseIf batteryLow = deviceCount Then
+        summary = "All batteries are low"
+        summaryValue = 99
+    Else
+        summary = summary + " low, all others good"
+        summaryValue = 99
+    End If
+
+    hs.SetDeviceValueByName(batterySummaryVirtualDeviceName, summaryValue)
+    hs.SetDeviceStringByName(batterySummaryVirtualDeviceName, summary, True)
+End Sub

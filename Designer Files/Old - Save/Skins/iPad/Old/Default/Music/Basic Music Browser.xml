@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <anyType xsi:type="SerializeContainer">
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>WidgetGroup</WidgetType>
+            <ScreenName>New Screen</ScreenName>
+            <MyName>Basic Music Browser</MyName>
+            <ID>34331.018875</ID>
+            <wp xsi:type="WidgetProp_Group">
+                <Left>55</Left>
+                <Top>35</Top>
+                <Width>646</Width>
+                <Height>416</Height>
+                <ZOrder>Front</ZOrder>
+                <BackColor>16777215</BackColor>
+                <MemberOfGroupName />
+                <BackImageFile>\Default\Graphics\inset-box.png</BackImageFile>
+                <BackgroundImageLayout>1</BackgroundImageLayout>
+                <_BorderStyle>None</_BorderStyle>
+                <ActAsOne>false</ActAsOne>
+                <DeviceType />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+        </obj>
+        <objtype>HSWidgetData</objtype>
+    </anyType>
+    <anyType xsi:type="ArrayOfAnyType">
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 017</MyName>
+                <ID>34331.0345</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>210</Left>
+                    <Top>10</Top>
+                    <Width>328</Width>
+                    <Height>24</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>9.75</FontSize>
+                    <FontStyle>Bold Italic</FontStyle>
+                    <FontColor>-16777024</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <BackColor>-2425123</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>FixedSingle</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-250</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString>Media Player</HS_Status_DeSel_KeyString>
+                <HS_Status_DeSel_KeyNum1>1</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>1</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 017</MyName>
+                <ID>34331.050125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>210</Left>
+                    <Top>40</Top>
+                    <Width>328</Width>
+                    <Height>25</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>9.75</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <BackColor>-2425123</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>FixedSingle</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>Back</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-240</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString>Media Player</HS_Status_DeSel_KeyString>
+                <HS_Status_DeSel_KeyNum1>1</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>1</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_ListBox</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>iTunes Music Selector</MyName>
+                <ID>34331.06575</ID>
+                <wp xsi:type="WidgetProp_ListBox">
+                    <Left>210</Left>
+                    <Top>80</Top>
+                    <Width>332</Width>
+                    <Height>269</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Bold Italic</FontStyle>
+                    <FontColor>-4144960</FontColor>
+                    <_FontColorSelected>-65536</_FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <BackImageFile />
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-64</BackColorSelected>
+                    <_Filter />
+                    <_BorderStyle>None</_BorderStyle>
+                    <Text>Make Selection</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-409</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>3</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-409</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>3</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString>Media Player</HS_Status_DeSel_KeyString>
+                <HS_Status_DeSel_KeyNum1>1</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>1</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 019</MyName>
+                <ID>34331.081375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>110</Left>
+                    <Top>80</Top>
+                    <Width>85</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>Back</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>113</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>34331.06575</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 020</MyName>
+                <ID>34331.097</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>30</Left>
+                    <Top>150</Top>
+                    <Width>162</Width>
+                    <Height>179</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-2039584</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-12566464</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text />
+                </wp>
+                <HS_Status_Ref_Sel>-235</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-235</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>2</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString>Media Player</HS_Status_DeSel_KeyString>
+                <HS_Status_DeSel_KeyNum1>1</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>1</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 020</MyName>
+                <ID>34331.112625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>478</Left>
+                    <Top>360</Top>
+                    <Width>61</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>&gt;&gt;</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>138</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>6</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 020</MyName>
+                <ID>34331.12825</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>210</Left>
+                    <Top>360</Top>
+                    <Width>61</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>&lt;&lt;</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>140</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>7</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 020</MyName>
+                <ID>34331.143875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>344</Left>
+                    <Top>360</Top>
+                    <Width>61</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>||</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>130</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>2</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label</MyName>
+                <ID>34331.1595</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>411</Left>
+                    <Top>360</Top>
+                    <Width>61</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>Play</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>128</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>1</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label</MyName>
+                <ID>34331.175125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>277</Left>
+                    <Top>360</Top>
+                    <Width>61</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>Stop</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>136</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>5</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label</MyName>
+                <ID>34331.19075</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>545</Left>
+                    <Top>80</Top>
+                    <Width>85</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>Up</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>38</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>8</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>34331.06575</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label</MyName>
+                <ID>34331.206375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>545</Left>
+                    <Top>315</Top>
+                    <Width>85</Width>
+                    <Height>34</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Basic Music Browser</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>10</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <Text>Down</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>39</Action>
+                        <ActString />
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>8</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>34331.06575</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey>Media Player</Act_sKey>
+                        <Act_iKey1>1</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+    </anyType>
+</ArrayOfAnyType>

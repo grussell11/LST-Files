@@ -1,0 +1,1864 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <anyType xsi:type="SerializeContainer">
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>WidgetGroup</WidgetType>
+            <ScreenName>Weather</ScreenName>
+            <MyName>Weather5DayRSS</MyName>
+            <ID>59472.57675</ID>
+            <wp xsi:type="WidgetProp_Group">
+                <Left>40</Left>
+                <Top>490</Top>
+                <Width>800</Width>
+                <Height>480</Height>
+                <ZOrder>Front</ZOrder>
+                <BackColor>-8355712</BackColor>
+                <MemberOfGroupName />
+                <BackImageFile>\Default\Backgrounds\800x480\Weather-5-day.jpg</BackImageFile>
+                <BackgroundImageLayout>0</BackgroundImageLayout>
+                <_BorderStyle>FixedSingle</_BorderStyle>
+                <ActAsOne>false</ActAsOne>
+                <DeviceType />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+        </obj>
+        <objtype>HSWidgetData</objtype>
+    </anyType>
+    <anyType xsi:type="ArrayOfAnyType">
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>Button-Main Menu</MyName>
+                <ID>66296.328125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>20</Left>
+                    <Top>20</Top>
+                    <Width>140</Width>
+                    <Height>57</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>14.25</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>14.25</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\blueglass-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\blueglass-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>-4144960</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Main Menu</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>60</Action>
+                        <ActString>Main Menu</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>Label-TEMP</MyName>
+                <ID>59865.78125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>200</Left>
+                    <Top>30</Top>
+                    <Width>127</Width>
+                    <Height>37</Height>
+                    <ZOrder>Back</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-4128769</FontColor>
+                    <TextAlign>64</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>TEMP:</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>title</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Current Temp</MyName>
+                <ID>59845.546875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>340</Left>
+                    <Top>20</Top>
+                    <Width>165</Width>
+                    <Height>54</Height>
+                    <ZOrder>Back</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16711936</FontColor>
+                    <TextAlign>16</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>temp</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getLiveWeatherRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>temp</RSSTableDeSel>
+                <RSSItemDeSel>temp_Text</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>Function-Date/Time</MyName>
+                <ID>36729.65625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>550</Left>
+                    <Top>15</Top>
+                    <Width>224</Width>
+                    <Height>30</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>14.25</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>14.25</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>[$DATE=ddd, MMM dd yyyy]</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Day 1</MyName>
+                <ID>53133.765625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>25</Left>
+                    <Top>125</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text />
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>title</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Day 2</MyName>
+                <ID>53549.484375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>185</Left>
+                    <Top>125</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text />
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>title</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Day 3</MyName>
+                <ID>53560.453125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>335</Left>
+                    <Top>125</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text />
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>title</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Day 4</MyName>
+                <ID>53570.125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>490</Left>
+                    <Top>125</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text />
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>title</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Day 5</MyName>
+                <ID>53575.984375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>645</Left>
+                    <Top>125</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text />
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>title</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Image 1</MyName>
+                <ID>55143.390625</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>40</Left>
+                    <Top>185</Top>
+                    <Width>99</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL />
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>-8355712</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>false</NoPress>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>2</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>70</Action>
+                        <ActString>Today's Weather Detail</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Image 2</MyName>
+                <ID>58299.625</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>195</Left>
+                    <Top>185</Top>
+                    <Width>99</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL />
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>-8355712</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>2</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Image 3</MyName>
+                <ID>58300.9375</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>350</Left>
+                    <Top>185</Top>
+                    <Width>99</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL />
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>-8355712</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>2</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Image 4</MyName>
+                <ID>58302.1875</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>505</Left>
+                    <Top>185</Top>
+                    <Width>99</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL />
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>-8355712</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>2</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Image 5</MyName>
+                <ID>58303.578125</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>660</Left>
+                    <Top>185</Top>
+                    <Width>99</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL />
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>-8355712</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>2</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Forecast 1</MyName>
+                <ID>65814.65625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>25</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecast</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>forecast</RSSTableDeSel>
+                <RSSItemDeSel>short-prediction</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Forecast 2</MyName>
+                <ID>65899.484375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>180</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecast</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>forecast</RSSTableDeSel>
+                <RSSItemDeSel>short-prediction</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Forecast 3</MyName>
+                <ID>65901.671875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>330</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecast</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>forecast</RSSTableDeSel>
+                <RSSItemDeSel>short-prediction</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Forecast 4</MyName>
+                <ID>65911.46875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>490</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecast</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>forecast</RSSTableDeSel>
+                <RSSItemDeSel>short-prediction</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Forecast 5</MyName>
+                <ID>65914.515625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>650</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecast</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>forecast</RSSTableDeSel>
+                <RSSItemDeSel>short-prediction</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-High 1</MyName>
+                <ID>54601.828125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>30</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>high</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>high</RSSTableDeSel>
+                <RSSItemDeSel>high_Text</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-High 2</MyName>
+                <ID>56342.421875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>185</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>high</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>high</RSSTableDeSel>
+                <RSSItemDeSel>high_Text</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-High 3</MyName>
+                <ID>56347.484375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>340</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>high</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>high</RSSTableDeSel>
+                <RSSItemDeSel>high_Text</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-High 4</MyName>
+                <ID>56348.984375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>495</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>high</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>high</RSSTableDeSel>
+                <RSSItemDeSel>high_Text</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-High 5</MyName>
+                <ID>56350.765625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>650</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>high</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>high</RSSTableDeSel>
+                <RSSItemDeSel>high_Text</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Low 1</MyName>
+                <ID>54728</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>30</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>low</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>low</RSSTableDeSel>
+                <RSSItemDeSel>low_Text</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Low 2</MyName>
+                <ID>56548.765625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>185</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>low</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>low</RSSTableDeSel>
+                <RSSItemDeSel>low_Text</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Low 3</MyName>
+                <ID>56550.234375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>340</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>low</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>low</RSSTableDeSel>
+                <RSSItemDeSel>low_Text</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Low 4</MyName>
+                <ID>56551.765625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>495</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>low</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>low</RSSTableDeSel>
+                <RSSItemDeSel>low_Text</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Low 5</MyName>
+                <ID>56553.71875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>645</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>low</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>low</RSSTableDeSel>
+                <RSSItemDeSel>low_Text</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>Label-Forecast From</MyName>
+                <ID>62411</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>130</Left>
+                    <Top>450</Top>
+                    <Width>143</Width>
+                    <Height>24</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>14.25</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>64</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Forecast from:</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecasts</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>forecasts</RSSTableDeSel>
+                <RSSItemDeSel>date</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Weather</ScreenName>
+                <MyName>RSS-Last Forecast Datestamp</MyName>
+                <ID>62201.078125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>280</Left>
+                    <Top>450</Top>
+                    <Width>232</Width>
+                    <Height>24</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>14.25</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>16</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecasts</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://api.wxbug.net/getForecastRSS.aspx?ACode=A5679336775&amp;zipcode=[$ZIPCODE]&amp;unittype=0</RSSURLDeSel>
+                <RSSTableDeSel>forecasts</RSSTableDeSel>
+                <RSSItemDeSel>date</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+    </anyType>
+</ArrayOfAnyType>

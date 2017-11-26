@@ -1,0 +1,2100 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>WidgetGroup</WidgetType>
+            <ScreenName>New Screen</ScreenName>
+            <MyName>Weather5DayRSS</MyName>
+            <ID>37216.5119151</ID>
+            <wp xsi:type="WidgetProp_Group">
+                <Left>0</Left>
+                <Top>30</Top>
+                <Width>800</Width>
+                <Height>480</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <BackColor>-8355712</BackColor>
+                <BackImageFile>\Default\Backgrounds\800x480\Weather-5-day.jpg</BackImageFile>
+                <BackgroundImageLayout>0</BackgroundImageLayout>
+                <_BorderStyle>FixedSingle</_BorderStyle>
+                <ActAsOne>false</ActAsOne>
+                <DeviceType />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="ArrayOfAnyType">
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Image</MyName>
+                <ID>37216.5129152</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>588</Left>
+                    <Top>451</Top>
+                    <Width>198</Width>
+                    <Height>13</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL />
+                    <ImageFile>\Default\Graphics\powered-by-wwo-big.png</ImageFile>
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>0</BackgroundImageLayout>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>0</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                    <_IsVideoRefreshRate>0</_IsVideoRefreshRate>
+                    <_Visible>true</_Visible>
+                    <AlphaValue>255</AlphaValue>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Image</MyName>
+                <ID>37216.5139152</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>193</Left>
+                    <Top>7</Top>
+                    <Width>100</Width>
+                    <Height>100</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL>[$REGEXREPLACE=[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;current_condition-&gt;weatherIconUrl-&gt;0]-&gt;www.worldweatheronline.com/images/wsymbols01_png_64-&gt;images.homeseer.com/images/weather/wsymbols01_png_100]</ImageFileURL>
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>0</BackgroundImageLayout>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>0</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                    <_IsVideoRefreshRate>0</_IsVideoRefreshRate>
+                    <_Visible>true</_Visible>
+                    <AlphaValue>255</AlphaValue>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Current Temp</MyName>
+                <ID>37216.5149153</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>315</Left>
+                    <Top>30</Top>
+                    <Width>119</Width>
+                    <Height>54</Height>
+                    <ZOrder>Back</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16711936</FontColor>
+                    <TextAlign>16</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLSel>
+                <RSSTableSel>current_condition</RSSTableSel>
+                <RSSItemSel>temp_F</RSSItemSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSUserSel />
+                <RSSPassSel />
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>current_condition</RSSTableDeSel>
+                <RSSItemDeSel>temp_F</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <RSSUserDeSel />
+                <RSSPassDeSel />
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Function-Date/Time</MyName>
+                <ID>37216.5159154</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>550</Left>
+                    <Top>15</Top>
+                    <Width>224</Width>
+                    <Height>30</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>14.25</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>14.25</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-256</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>[$DATE=ddd, MMM dd yyyy]</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Day 1</MyName>
+                <ID>37216.5169154</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>25</Left>
+                    <Top>126</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>[$SCRIPT=&amp;WeekDayName(WeekDay("[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;date-&gt;0]"),true)]</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel />
+                <RSSTableSel>title</RSSTableSel>
+                <RSSItemSel>alttitle</RSSItemSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Day 2</MyName>
+                <ID>37216.5179155</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>180</Left>
+                    <Top>126</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>[$SCRIPT=&amp;WeekDayName(WeekDay("[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;date-&gt;1]"),true)]</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel />
+                <RSSTableSel>title</RSSTableSel>
+                <RSSItemSel>alttitle</RSSItemSel>
+                <RSSRowSel>1</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Day 3</MyName>
+                <ID>37216.5189155</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>335</Left>
+                    <Top>126</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>[$SCRIPT=&amp;WeekDayName(WeekDay("[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;date-&gt;2]"),true)]</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel />
+                <RSSTableSel>title</RSSTableSel>
+                <RSSItemSel>alttitle</RSSItemSel>
+                <RSSRowSel>2</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Day 4</MyName>
+                <ID>37216.5199156</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>490</Left>
+                    <Top>126</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>[$SCRIPT=&amp;WeekDayName(WeekDay("[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;date-&gt;3]"),true)]</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel />
+                <RSSTableSel>title</RSSTableSel>
+                <RSSItemSel>alttitle</RSSItemSel>
+                <RSSRowSel>3</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Day 5</MyName>
+                <ID>37216.5209156</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>645</Left>
+                    <Top>126</Top>
+                    <Width>130</Width>
+                    <Height>37</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>24</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>[$SCRIPT=&amp;WeekDayName(WeekDay("[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;date-&gt;4]"),true)]</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel />
+                <RSSTableSel>title</RSSTableSel>
+                <RSSItemSel>alttitle</RSSItemSel>
+                <RSSRowSel>4</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>title</RSSTableDeSel>
+                <RSSItemDeSel>alttitle</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Image 1</MyName>
+                <ID>37216.5219157</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>52</Left>
+                    <Top>185</Top>
+                    <Width>76</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL>[$REGEXREPLACE=[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;weatherIconUrl-&gt;0]-&gt;www.worldweatheronline.com/images/wsymbols01_png_64-&gt;images.homeseer.com/images/weather/wsymbols01_png_100]</ImageFileURL>
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                    <_IsVideoRefreshRate>0</_IsVideoRefreshRate>
+                    <_Visible>true</_Visible>
+                    <AlphaValue>255</AlphaValue>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>70</Action>
+                        <ActString>Today's Weather Detail</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Image 2</MyName>
+                <ID>37216.5229158</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>212</Left>
+                    <Top>185</Top>
+                    <Width>76</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL>[$REGEXREPLACE=[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;weatherIconUrl-&gt;1]-&gt;www.worldweatheronline.com/images/wsymbols01_png_64-&gt;images.homeseer.com/images/weather/wsymbols01_png_100]</ImageFileURL>
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                    <_IsVideoRefreshRate>0</_IsVideoRefreshRate>
+                    <_Visible>true</_Visible>
+                    <AlphaValue>255</AlphaValue>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Image 3</MyName>
+                <ID>37216.5239158</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>362</Left>
+                    <Top>185</Top>
+                    <Width>76</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL>[$REGEXREPLACE=[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;weatherIconUrl-&gt;2]-&gt;www.worldweatheronline.com/images/wsymbols01_png_64-&gt;images.homeseer.com/images/weather/wsymbols01_png_100]</ImageFileURL>
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                    <_IsVideoRefreshRate>0</_IsVideoRefreshRate>
+                    <_Visible>true</_Visible>
+                    <AlphaValue>255</AlphaValue>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Image 4</MyName>
+                <ID>37216.5249159</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>517</Left>
+                    <Top>185</Top>
+                    <Width>76</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL>[$REGEXREPLACE=[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;weatherIconUrl-&gt;3]-&gt;www.worldweatheronline.com/images/wsymbols01_png_64-&gt;images.homeseer.com/images/weather/wsymbols01_png_100]</ImageFileURL>
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                    <_IsVideoRefreshRate>0</_IsVideoRefreshRate>
+                    <_Visible>true</_Visible>
+                    <AlphaValue>255</AlphaValue>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Image</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Image 5</MyName>
+                <ID>37216.5259159</ID>
+                <wp xsi:type="WidgetProp_Image">
+                    <Left>672</Left>
+                    <Top>185</Top>
+                    <Width>76</Width>
+                    <Height>76</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <ImageFileURL>[$REGEXREPLACE=[$RSS=http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]-&gt;weather-&gt;weatherIconUrl-&gt;4]-&gt;www.worldweatheronline.com/images/wsymbols01_png_64-&gt;images.homeseer.com/images/weather/wsymbols01_png_100]</ImageFileURL>
+                    <ImageFile />
+                    <ImageFileSelectedURL />
+                    <ImageFileSelected />
+                    <BackgroundImageLayout>3</BackgroundImageLayout>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>-8355712</BackColorSelected>
+                    <NoPress>true</NoPress>
+                    <ImageFormatSelected>Normal</ImageFormatSelected>
+                    <_IsVideo>false</_IsVideo>
+                    <_DrawOnBackground>false</_DrawOnBackground>
+                    <_IsVideoRefreshRate>0</_IsVideoRefreshRate>
+                    <_Visible>true</_Visible>
+                    <AlphaValue>255</AlphaValue>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>2</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>image</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>image</RSSTableDeSel>
+                <RSSItemDeSel>image_Text</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Forecast 1</MyName>
+                <ID>37216.526916</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>23</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLSel>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSItemSel>weatherDesc</RSSItemSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>weatherDesc</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Forecast 2</MyName>
+                <ID>37216.527916</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>178</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>weatherDesc</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Forecast 3</MyName>
+                <ID>37216.5289161</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>333</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>weatherDesc</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Forecast 4</MyName>
+                <ID>37216.5299162</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>488</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>weatherDesc</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Forecast 5</MyName>
+                <ID>37216.5309162</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>643</Left>
+                    <Top>270</Top>
+                    <Width>134</Width>
+                    <Height>33</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-1</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>weatherDesc</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-High 1</MyName>
+                <ID>37216.5319163</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>27</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLSel>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSItemSel>tempMaxF</RSSItemSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMaxF</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-High 2</MyName>
+                <ID>37216.5329163</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>182</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMaxF</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-High 3</MyName>
+                <ID>37216.5339164</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>337</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMaxF</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-High 4</MyName>
+                <ID>37216.5349164</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>492</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMaxF</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-High 5</MyName>
+                <ID>37216.5359165</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>647</Left>
+                    <Top>306</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-256</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMaxF</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Low 1</MyName>
+                <ID>37216.5369166</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>27</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLSel>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSItemSel>tempMinF</RSSItemSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMinF</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Low 2</MyName>
+                <ID>37216.5379166</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>182</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMinF</RSSItemDeSel>
+                <RSSRowDeSel>1</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Low 3</MyName>
+                <ID>37216.5389167</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>337</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMinF</RSSItemDeSel>
+                <RSSRowDeSel>2</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Low 4</MyName>
+                <ID>37216.5399167</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>492</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMinF</RSSItemDeSel>
+                <RSSRowDeSel>3</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>RSS-Low 5</MyName>
+                <ID>37216.5409168</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>647</Left>
+                    <Top>380</Top>
+                    <Width>126</Width>
+                    <Height>45</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>36</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16727872</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>weather</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>weather</RSSTableDeSel>
+                <RSSItemDeSel>tempMinF</RSSItemDeSel>
+                <RSSRowDeSel>4</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label-Forecast From</MyName>
+                <ID>37216.5419168</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>461</Left>
+                    <Top>82</Top>
+                    <Width>117</Width>
+                    <Height>23</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-5247250</FontColor>
+                    <TextAlign>64</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Forecast from:</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSTableSel>forecasts</RSSTableSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel />
+                <RSSTableDeSel>forecasts</RSSTableDeSel>
+                <RSSItemDeSel>date</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <objtype>HSWidgetData</objtype>
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>New Screen</ScreenName>
+                <MyName>Label 032</MyName>
+                <ID>37216.543917</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>586</Left>
+                    <Top>82</Top>
+                    <Width>194</Width>
+                    <Height>24</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Weather5DayRSS</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-5247250</FontColor>
+                    <TextAlign>64</TextAlign>
+                    <FontColorSelected>-1</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>true</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                    <MargueeTextIncrement>10</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile />
+                    <BackImageFileSelected />
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <_Visible>true</_Visible>
+                    <Text>Text</Text>
+                </wp>
+                <HS_Status_Ref_Sel>-500</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyString />
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSURLSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLSel>
+                <RSSTableSel>request</RSSTableSel>
+                <RSSItemSel>query</RSSItemSel>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSURLDeSel>http://free.worldweatheronline.com/feed/weather.ashx?q=[$LATITUDE],[$LONGITUDE]&amp;format=xml&amp;num_of_days=5&amp;key=[$WEATHERAPIKEY]</RSSURLDeSel>
+                <RSSTableDeSel>request</RSSTableDeSel>
+                <RSSItemDeSel>query</RSSItemDeSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>-500</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyString />
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+                <ValueStatusModifierType>None</ValueStatusModifierType>
+                <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+        </anyType>
+    </anyType>
+</ArrayOfAnyType>

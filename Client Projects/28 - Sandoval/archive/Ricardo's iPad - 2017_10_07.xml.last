@@ -1,0 +1,2055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <anyType xsi:type="SerializeContainer">
+        <objtype>AppData</objtype>
+        <obj xsi:type="HSTouchData">
+            <MenuPopupLocation>UpperLeft</MenuPopupLocation>
+            <MenuSelectSize>163</MenuSelectSize>
+            <DefaultSkin>iPad</DefaultSkin>
+            <DefaultWidth>1024</DefaultWidth>
+            <DefaultHeight>768</DefaultHeight>
+            <DefaultScreenType>Windows</DefaultScreenType>
+            <DefaultBackMode>BACK_COLOR</DefaultBackMode>
+            <DefaultBackColor>-1</DefaultBackColor>
+            <DefaultNotes />
+            <DefaultName>Ricardo's iPad - 2017_10_07</DefaultName>
+            <DefaultIPAddress />
+            <DefaultUser />
+            <DefaultPass />
+            <MainScreenTimeout>5</MainScreenTimeout>
+            <MainScreenReturn>false</MainScreenReturn>
+            <PasscodeTimeout>5</PasscodeTimeout>
+            <FontScaling>1</FontScaling>
+            <MaxImageWidth>0</MaxImageWidth>
+            <MaxImageHeight>0</MaxImageHeight>
+            <Zipcode>92807</Zipcode>
+            <Orientation>Landscape</Orientation>
+            <AutoScale>false</AutoScale>
+            <GraphData />
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>ScreenData</objtype>
+        <obj xsi:type="ScreenData">
+            <Screen_Text />
+            <Screen_BackgroundColor>-1</Screen_BackgroundColor>
+            <Screen_BackgroundMode>2</Screen_BackgroundMode>
+            <Screen_BackgroundImageLayout>0</Screen_BackgroundImageLayout>
+            <Screen_BackgroundImage>\iPad\Backgrounds\1024x768\LST-iPad-settings-background-1024x768.png</Screen_BackgroundImage>
+            <Animate_Style>None</Animate_Style>
+            <Animate_Delay>500</Animate_Delay>
+            <AlphaValue>255</AlphaValue>
+            <Device_Types />
+            <ID>66240.900652</ID>
+            <ScreenTitle>Home</ScreenTitle>
+            <IsMain>true</IsMain>
+            <Passcode />
+            <Orientation>Portrait</Orientation>
+            <LinkedScreen />
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>1024</Width>
+            <Height>768</Height>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Text 004</MyName>
+            <ID>35178.6022269</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>605</Left>
+                <Top>197</Top>
+                <Width>150</Width>
+                <Height>30</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>18</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Text</Text>
+            </wp>
+            <HS_Status_Ref_Sel>33</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyString />
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>33</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyString />
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors>
+                <StatusColor>
+                    <SCFontColor>-10185235</SCFontColor>
+                    <SCBackColor>16777215</SCBackColor>
+                    <SCStatus>Off</SCStatus>
+                    <SCAltText>Disarmed</SCAltText>
+                    <SCMatchMode>MatchStatus</SCMatchMode>
+                </StatusColor>
+                <StatusColor>
+                    <SCFontColor>-8388608</SCFontColor>
+                    <SCBackColor>16777215</SCBackColor>
+                    <SCStatus>Away Mode</SCStatus>
+                    <SCAltText>Armed</SCAltText>
+                    <SCMatchMode>MatchStatus</SCMatchMode>
+                </StatusColor>
+            </StatusColors>
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Text 003</MyName>
+            <ID>35134.2819592</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>440</Left>
+                <Top>197</Top>
+                <Width>150</Width>
+                <Height>30</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>18</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>1</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Alarm State:</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 002</MyName>
+            <ID>35104.5379253</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>860</Left>
+                <Top>115</Top>
+                <Width>93</Width>
+                <Height>64</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-16777216</FontColorSelected>
+                <FontStyleSelected>Bold</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>false</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile>\iPad\Buttons\alarm-icon-ON-125x90[1].png</BackImageFile>
+                <BackImageFileSelected>\iPad\Buttons\alarm-icon-ON-125x90[1].png</BackImageFileSelected>
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <BackImageFileURL />
+                <BackImageFileSelectedURL />
+                <Text />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 001</MyName>
+            <ID>35015.5683817</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>375</Left>
+                <Top>339</Top>
+                <Width>162</Width>
+                <Height>54</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-16777216</FontColorSelected>
+                <FontStyleSelected>Bold</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>false</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile>\iPad\Buttons\basicblue-norm.bmp</BackImageFile>
+                <BackImageFileSelected>\iPad\Buttons\basicblue-pressed.bmp</BackImageFileSelected>
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <BackImageFileURL />
+                <BackImageFileSelectedURL />
+                <Text />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active>
+                <TouchAction>
+                    <Action>55</Action>
+                    <ActString />
+                    <ActScriptProc />
+                    <ActScriptParmControls>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                    </ActScriptParmControls>
+                    <ActValue>0</ActValue>
+                    <ActDouble>0</ActDouble>
+                    <ActControlID>0</ActControlID>
+                    <ActDvEvRef>33</ActDvEvRef>
+                    <Act_sKey />
+                    <Act_iKey1>0</Act_iKey1>
+                    <Act_iKey2>0</Act_iKey2>
+                    <ActControl_Label>Away Mode</ActControl_Label>
+                    <ActControl_Type>1</ActControl_Type>
+                    <ActControl_Value xsi:type="xsd:double">100</ActControl_Value>
+                </TouchAction>
+            </Actions_Active>
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label</MyName>
+            <ID>35013.2399404</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>675</Left>
+                <Top>339</Top>
+                <Width>162</Width>
+                <Height>54</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-16777216</FontColorSelected>
+                <FontStyleSelected>Bold</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>false</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile>\iPad\Buttons\basicgreen-norm.bmp</BackImageFile>
+                <BackImageFileSelected>\iPad\Buttons\basicgreen-pressed.bmp</BackImageFileSelected>
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <BackImageFileURL />
+                <BackImageFileSelectedURL />
+                <Text />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active>
+                <TouchAction>
+                    <Action>55</Action>
+                    <ActString />
+                    <ActScriptProc />
+                    <ActScriptParmControls>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                    </ActScriptParmControls>
+                    <ActValue>0</ActValue>
+                    <ActDouble>0</ActDouble>
+                    <ActControlID>0</ActControlID>
+                    <ActDvEvRef>33</ActDvEvRef>
+                    <Act_sKey />
+                    <Act_iKey1>0</Act_iKey1>
+                    <Act_iKey2>0</Act_iKey2>
+                    <ActControl_Label>Off</ActControl_Label>
+                    <ActControl_Type>1</ActControl_Type>
+                    <ActControl_Value xsi:type="xsd:double">0</ActControl_Value>
+                </TouchAction>
+            </Actions_Active>
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Text 001</MyName>
+            <ID>33292.6030813</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>250</Left>
+                <Top>63</Top>
+                <Width>210</Width>
+                <Height>30</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-1</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>-657931</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Text</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Text</MyName>
+            <ID>33019.7368941</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>-1</Left>
+                <Top>130</Top>
+                <Width>199</Width>
+                <Height>575</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-1</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>-12156236</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Text 002</MyName>
+            <ID>33893.8040959</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>310</Left>
+                <Top>114</Top>
+                <Width>569</Width>
+                <Height>65</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>27.75</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16746845</FontColor>
+                <TextAlign>2</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Welcome to Ricardo's</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 041</MyName>
+            <ID>66240.9056523</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>776</Left>
+                <Top>6</Top>
+                <Width>129</Width>
+                <Height>25</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>[$DATE]</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 042</MyName>
+            <ID>66240.9066523</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>904</Left>
+                <Top>6</Top>
+                <Width>120</Width>
+                <Height>23</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>[$TIME]</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 003</MyName>
+            <ID>43523.2995127</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>381</Left>
+                <Top>403</Top>
+                <Width>150</Width>
+                <Height>55</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>18</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>2</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Arm</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 004</MyName>
+            <ID>43551.4272289</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>681</Left>
+                <Top>403</Top>
+                <Width>150</Width>
+                <Height>55</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>18</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>2</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Disarm</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 005</MyName>
+            <ID>55232.3553052</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>500</Left>
+                <Top>230</Top>
+                <Width>360</Width>
+                <Height>30</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>18</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Text</Text>
+            </wp>
+            <HS_Status_Ref_Sel>34</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyString />
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>34</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyString />
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors>
+                <StatusColor>
+                    <SCFontColor>-32768</SCFontColor>
+                    <SCBackColor>16777215</SCBackColor>
+                    <SCStatus>Pending</SCStatus>
+                    <SCAltText>Pending</SCAltText>
+                    <SCMatchMode>MatchStatus</SCMatchMode>
+                </StatusColor>
+                <StatusColor>
+                    <SCFontColor>-16777216</SCFontColor>
+                    <SCBackColor>16777215</SCBackColor>
+                    <SCStatus>Ready</SCStatus>
+                    <SCAltText>Ready</SCAltText>
+                    <SCMatchMode>MatchStatus</SCMatchMode>
+                </StatusColor>
+                <StatusColor>
+                    <SCFontColor>-65536</SCFontColor>
+                    <SCBackColor>0</SCBackColor>
+                    <SCStatus>Triggered</SCStatus>
+                    <SCAltText>ALARM TRIGGERED</SCAltText>
+                    <SCMatchMode>MatchStatus</SCMatchMode>
+                </StatusColor>
+            </StatusColors>
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Home</ScreenName>
+            <MyName>Label 006</MyName>
+            <ID>56214.8509735</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>448</Left>
+                <Top>585</Top>
+                <Width>292</Width>
+                <Height>31</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>14.25</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-9868951</FontColor>
+                <TextAlign>2</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>false</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Tap to Go to Sensor Log</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active>
+                <TouchAction>
+                    <Action>60</Action>
+                    <ActString>Sensor Log</ActString>
+                    <ActScriptProc />
+                    <ActScriptParmControls>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                    </ActScriptParmControls>
+                    <ActValue>0</ActValue>
+                    <ActDouble>0</ActDouble>
+                    <ActControlID>0</ActControlID>
+                    <ActDvEvRef>0</ActDvEvRef>
+                    <Act_sKey />
+                    <Act_iKey1>0</Act_iKey1>
+                    <Act_iKey2>0</Act_iKey2>
+                    <ActControl_Label />
+                    <ActControl_Type>0</ActControl_Type>
+                </TouchAction>
+            </Actions_Active>
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>ScreenData</objtype>
+        <obj xsi:type="ScreenData">
+            <Screen_Text />
+            <Screen_BackgroundColor>-1</Screen_BackgroundColor>
+            <Screen_BackgroundMode>2</Screen_BackgroundMode>
+            <Screen_BackgroundImageLayout>0</Screen_BackgroundImageLayout>
+            <Screen_BackgroundImage>\iPad\Backgrounds\1024x768\LST-iPad-settings-background-1024x768.png</Screen_BackgroundImage>
+            <Animate_Style>None</Animate_Style>
+            <Animate_Delay>500</Animate_Delay>
+            <AlphaValue>255</AlphaValue>
+            <Device_Types />
+            <ID>55742.0341558</ID>
+            <ScreenTitle>Sensor Log</ScreenTitle>
+            <IsMain>false</IsMain>
+            <Passcode />
+            <Orientation>Portrait</Orientation>
+            <LinkedScreen />
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>1024</Width>
+            <Height>768</Height>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Sensor Log</ScreenName>
+            <MyName>Text 005</MyName>
+            <ID>57161.3617709</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>250</Left>
+                <Top>205</Top>
+                <Width>719</Width>
+                <Height>438</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>11.25</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>1</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Text</Text>
+            </wp>
+            <HS_Status_Ref_Sel>35</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyString />
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>35</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyString />
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Sensor Log</ScreenName>
+            <MyName>Text</MyName>
+            <ID>55742.0701742</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>-1</Left>
+                <Top>130</Top>
+                <Width>199</Width>
+                <Height>575</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-1</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>-12156236</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Sensor Log</ScreenName>
+            <MyName>Label 041</MyName>
+            <ID>55742.0781589</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>776</Left>
+                <Top>6</Top>
+                <Width>129</Width>
+                <Height>25</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>[$DATE]</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Sensor Log</ScreenName>
+            <MyName>Label 042</MyName>
+            <ID>55742.0821756</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>904</Left>
+                <Top>6</Top>
+                <Width>120</Width>
+                <Height>23</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>[$TIME]</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Sensor Log</ScreenName>
+            <MyName>Label 007</MyName>
+            <ID>55783.4798167</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>310</Left>
+                <Top>114</Top>
+                <Width>569</Width>
+                <Height>65</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>27.75</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16746845</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Event Log</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Sensor Log</ScreenName>
+            <MyName>Label 010</MyName>
+            <ID>55936.6363799</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>250</Left>
+                <Top>63</Top>
+                <Width>210</Width>
+                <Height>30</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-1</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>-657931</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Text</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Sensor Log</ScreenName>
+            <MyName>Label 012</MyName>
+            <ID>55958.6869111</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>220</Left>
+                <Top>94</Top>
+                <Width>367</Width>
+                <Height>31</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>14.25</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-9868951</FontColor>
+                <TextAlign>1</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>false</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Tap to Go Back to Alarm Screen </Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active>
+                <TouchAction>
+                    <Action>60</Action>
+                    <ActString>Home</ActString>
+                    <ActScriptProc />
+                    <ActScriptParmControls>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                    </ActScriptParmControls>
+                    <ActValue>0</ActValue>
+                    <ActDouble>0</ActDouble>
+                    <ActControlID>0</ActControlID>
+                    <ActDvEvRef>0</ActDvEvRef>
+                    <Act_sKey />
+                    <Act_iKey1>0</Act_iKey1>
+                    <Act_iKey2>0</Act_iKey2>
+                    <ActControl_Label />
+                    <ActControl_Type>0</ActControl_Type>
+                </TouchAction>
+            </Actions_Active>
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>ScreenData</objtype>
+        <obj xsi:type="ScreenData">
+            <Screen_Text />
+            <Screen_BackgroundColor>-1</Screen_BackgroundColor>
+            <Screen_BackgroundMode>2</Screen_BackgroundMode>
+            <Screen_BackgroundImageLayout>0</Screen_BackgroundImageLayout>
+            <Screen_BackgroundImage>\iPad\Backgrounds\1024x768\LST-iPad-settings-background-1024x768.png</Screen_BackgroundImage>
+            <Animate_Style>None</Animate_Style>
+            <Animate_Delay>500</Animate_Delay>
+            <AlphaValue>255</AlphaValue>
+            <Device_Types />
+            <ID>62312.183573</ID>
+            <ScreenTitle>Alarm Log</ScreenTitle>
+            <IsMain>false</IsMain>
+            <Passcode />
+            <Orientation>Portrait</Orientation>
+            <LinkedScreen />
+            <Left>0</Left>
+            <Top>0</Top>
+            <Width>1024</Width>
+            <Height>768</Height>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Alarm Log</ScreenName>
+            <MyName>Text 005</MyName>
+            <ID>62312.1991863</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>250</Left>
+                <Top>205</Top>
+                <Width>719</Width>
+                <Height>438</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>11.25</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>1</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Text</Text>
+            </wp>
+            <HS_Status_Ref_Sel>35</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyString />
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>35</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyString />
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Alarm Log</ScreenName>
+            <MyName>Text</MyName>
+            <ID>62312.214809</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>-1</Left>
+                <Top>130</Top>
+                <Width>199</Width>
+                <Height>575</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-1</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>-12156236</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Alarm Log</ScreenName>
+            <MyName>Label 041</MyName>
+            <ID>62312.2304362</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>776</Left>
+                <Top>6</Top>
+                <Width>129</Width>
+                <Height>25</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>[$DATE]</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Alarm Log</ScreenName>
+            <MyName>Label 042</MyName>
+            <ID>62312.2460607</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>904</Left>
+                <Top>6</Top>
+                <Width>120</Width>
+                <Height>23</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-16777216</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>[$TIME]</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Alarm Log</ScreenName>
+            <MyName>Label 007</MyName>
+            <ID>62312.2616856</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>310</Left>
+                <Top>114</Top>
+                <Width>569</Width>
+                <Height>65</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>27.75</FontSize>
+                <FontStyle>Bold</FontStyle>
+                <FontColor>-16746845</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Alarm Log</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Alarm Log</ScreenName>
+            <MyName>Label 010</MyName>
+            <ID>62312.2773105</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>250</Left>
+                <Top>63</Top>
+                <Width>210</Width>
+                <Height>30</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>10</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-1</FontColor>
+                <TextAlign>32</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>true</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>-657931</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Text</Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+    <anyType xsi:type="SerializeContainer">
+        <objtype>HSWidgetData</objtype>
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>HS_Label</WidgetType>
+            <ScreenName>Alarm Log</ScreenName>
+            <MyName>Label 012</MyName>
+            <ID>62312.2929444</ID>
+            <wp xsi:type="WidgetProp_Label">
+                <Left>220</Left>
+                <Top>94</Top>
+                <Width>367</Width>
+                <Height>31</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <FontName>Arial</FontName>
+                <FontSize>14.25</FontSize>
+                <FontStyle>Regular</FontStyle>
+                <FontColor>-9868951</FontColor>
+                <TextAlign>1</TextAlign>
+                <FontColorSelected>-1</FontColorSelected>
+                <FontStyleSelected>Regular</FontStyleSelected>
+                <FontSizeSelected>10</FontSizeSelected>
+                <FontNameSelected>Arial</FontNameSelected>
+                <NoPress>false</NoPress>
+                <MarqueeText>false</MarqueeText>
+                <MarqueeTextSpeed>200</MarqueeTextSpeed>
+                <MargueeTextIncrement>10</MargueeTextIncrement>
+                <ImageFile />
+                <ImageFileSelected />
+                <BackImageFile />
+                <BackImageFileSelected />
+                <ImageFormatSelected>Stretched</ImageFormatSelected>
+                <BackColor>16777215</BackColor>
+                <BackColorSelected>16777215</BackColorSelected>
+                <_BorderStyle>None</_BorderStyle>
+                <_IsHTML>false</_IsHTML>
+                <_AllowNavigation>false</_AllowNavigation>
+                <_HonorAllReleases>false</_HonorAllReleases>
+                <_Visible>true</_Visible>
+                <Text>Tap to Go Back to Alarm Screen </Text>
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <HS_Status_DeSel_ID>0</HS_Status_DeSel_ID>
+            <ValueStatusModifierType>None</ValueStatusModifierType>
+            <ValueStatusModifierNumber>0</ValueStatusModifierNumber>
+            <Actions_Active>
+                <TouchAction>
+                    <Action>60</Action>
+                    <ActString>Home</ActString>
+                    <ActScriptProc />
+                    <ActScriptParmControls>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                        <double>0</double>
+                    </ActScriptParmControls>
+                    <ActValue>0</ActValue>
+                    <ActDouble>0</ActDouble>
+                    <ActControlID>0</ActControlID>
+                    <ActDvEvRef>0</ActDvEvRef>
+                    <Act_sKey />
+                    <Act_iKey1>0</Act_iKey1>
+                    <Act_iKey2>0</Act_iKey2>
+                    <ActControl_Label />
+                    <ActControl_Type>0</ActControl_Type>
+                </TouchAction>
+            </Actions_Active>
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+    </anyType>
+</ArrayOfAnyType>

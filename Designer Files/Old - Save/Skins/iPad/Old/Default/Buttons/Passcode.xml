@@ -1,0 +1,1151 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <anyType xsi:type="SerializeContainer">
+        <obj xsi:type="HSWidgetData">
+            <WidgetType>WidgetGroup</WidgetType>
+            <ScreenName>Passcode</ScreenName>
+            <MyName>Passcode</MyName>
+            <ID>53917.41425</ID>
+            <wp xsi:type="WidgetProp_Group">
+                <Left>0</Left>
+                <Top>0</Top>
+                <Width>214</Width>
+                <Height>311</Height>
+                <ZOrder>Front</ZOrder>
+                <MemberOfGroupName />
+                <BackColor>-8355712</BackColor>
+                <BackImageFile />
+                <BackgroundImageLayout>1</BackgroundImageLayout>
+                <_BorderStyle>FixedSingle</_BorderStyle>
+                <ActAsOne>false</ActAsOne>
+                <DeviceType />
+            </wp>
+            <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+            <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+            <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+            <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+            <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+            <RSSRowSel>0</RSSRowSel>
+            <RSSRowDeSel>0</RSSRowDeSel>
+            <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+            <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+            <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+            <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+            <Actions_Active />
+            <Actions_DeActive />
+            <Actions_Change />
+            <StatusImages />
+            <StatusColors />
+            <SuppressAssociationAction>false</SuppressAssociationAction>
+        </obj>
+        <objtype>HSWidgetData</objtype>
+    </anyType>
+    <anyType xsi:type="ArrayOfAnyType">
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 006</MyName>
+                <ID>53917.429875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>14</Left>
+                    <Top>53</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>1</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>1</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 007</MyName>
+                <ID>53917.4455</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>81</Left>
+                    <Top>53</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>2</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>2</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 008</MyName>
+                <ID>53917.461125</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>148</Left>
+                    <Top>53</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>3</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>3</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 009</MyName>
+                <ID>53917.47675</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>14</Left>
+                    <Top>118</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>4</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>4</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 010</MyName>
+                <ID>53917.492375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>81</Left>
+                    <Top>118</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>5</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>5</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 011</MyName>
+                <ID>53917.508</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>148</Left>
+                    <Top>118</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>6</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>6</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 012</MyName>
+                <ID>53917.523625</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>14</Left>
+                    <Top>185</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>7</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>7</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 013</MyName>
+                <ID>53917.53925</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>81</Left>
+                    <Top>185</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>8</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>8</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 014</MyName>
+                <ID>53917.554875</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>148</Left>
+                    <Top>185</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>9</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>9</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 015</MyName>
+                <ID>53917.5705</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>148</Left>
+                    <Top>250</Top>
+                    <Width>51</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>Enter</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>80</Action>
+                        <ActString>Passcode</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>0</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_TextBox</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Text Box</MyName>
+                <ID>53917.586125</ID>
+                <wp xsi:type="WidgetProp_TextBox">
+                    <Left>13</Left>
+                    <Top>15</Top>
+                    <Width>189</Width>
+                    <Height>30</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Italic</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>0</TextAlign>
+                    <BackColor>-4128832</BackColor>
+                    <Text />
+                    <LengthMax>255</LengthMax>
+                    <MultiLine>false</MultiLine>
+                    <PasswordChar>*</PasswordChar>
+                    <UsePasswordChar>true</UsePasswordChar>
+                    <UseOnScreenInputPanel>false</UseOnScreenInputPanel>
+                    <WordWrap>true</WordWrap>
+                    <StripCRLF>true</StripCRLF>
+                    <EnterIsChange>true</EnterIsChange>
+                    <IgnoreChange>false</IgnoreChange>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive />
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 017</MyName>
+                <ID>53917.60175</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>81</Left>
+                    <Top>250</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial Black</FontName>
+                    <FontSize>18</FontSize>
+                    <FontStyle>Regular</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Regular</FontStyleSelected>
+                    <FontSizeSelected>18</FontSizeSelected>
+                    <FontNameSelected>Arial Black</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>0</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>53</Action>
+                        <ActString>0</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+        <anyType xsi:type="SerializeContainer">
+            <obj xsi:type="HSWidgetData">
+                <WidgetType>HS_Label</WidgetType>
+                <ScreenName>Passcode</ScreenName>
+                <MyName>Label 018</MyName>
+                <ID>53917.617375</ID>
+                <wp xsi:type="WidgetProp_Label">
+                    <Left>14</Left>
+                    <Top>250</Top>
+                    <Width>53</Width>
+                    <Height>54</Height>
+                    <ZOrder>Front</ZOrder>
+                    <MemberOfGroupName>Passcode</MemberOfGroupName>
+                    <FontName>Arial</FontName>
+                    <FontSize>12</FontSize>
+                    <FontStyle>Bold</FontStyle>
+                    <FontColor>-16777216</FontColor>
+                    <TextAlign>32</TextAlign>
+                    <FontColorSelected>-16777216</FontColorSelected>
+                    <FontStyleSelected>Bold</FontStyleSelected>
+                    <FontSizeSelected>10</FontSizeSelected>
+                    <FontNameSelected>Arial</FontNameSelected>
+                    <NoPress>false</NoPress>
+                    <MarqueeText>false</MarqueeText>
+                    <MarqueeTextSpeed>20</MarqueeTextSpeed>
+                    <MargueeTextIncrement>1</MargueeTextIncrement>
+                    <ImageFile />
+                    <ImageFileSelected />
+                    <BackImageFile>\Default\Buttons\gray-brushed2-norm.bmp</BackImageFile>
+                    <BackImageFileSelected>\Default\Buttons\gray-brushed2-pressed.bmp</BackImageFileSelected>
+                    <ImageFormatSelected>Stretched</ImageFormatSelected>
+                    <BackColor>16777215</BackColor>
+                    <BackColorSelected>16777215</BackColorSelected>
+                    <_BorderStyle>None</_BorderStyle>
+                    <_IsHTML>false</_IsHTML>
+                    <_AllowNavigation>false</_AllowNavigation>
+                    <_HonorAllReleases>false</_HonorAllReleases>
+                    <BackImageFileURL />
+                    <BackImageFileSelectedURL />
+                    <Text>Clear</Text>
+                </wp>
+                <HS_Status_Ref_Sel>0</HS_Status_Ref_Sel>
+                <HS_Status_Ref_Sel_SubType>0</HS_Status_Ref_Sel_SubType>
+                <HS_Status_Type_Sel>1</HS_Status_Type_Sel>
+                <HS_Status_Sel_KeyNum1>0</HS_Status_Sel_KeyNum1>
+                <HS_Status_Sel_KeyNum2>0</HS_Status_Sel_KeyNum2>
+                <RSSRowSel>0</RSSRowSel>
+                <RSSRowDeSel>0</RSSRowDeSel>
+                <HS_Status_Ref_DeSel>0</HS_Status_Ref_DeSel>
+                <HS_Status_Type_DeSel>1</HS_Status_Type_DeSel>
+                <HS_Status_DeSel_KeyNum1>0</HS_Status_DeSel_KeyNum1>
+                <HS_Status_DeSel_KeyNum2>0</HS_Status_DeSel_KeyNum2>
+                <Actions_Active />
+                <Actions_DeActive>
+                    <TouchAction>
+                        <Action>54</Action>
+                        <ActString>2</ActString>
+                        <ActScriptProc />
+                        <ActScriptParmControls>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                            <double>0</double>
+                        </ActScriptParmControls>
+                        <ActValue>0</ActValue>
+                        <ActDouble>0</ActDouble>
+                        <ActControlID>53917.586125</ActControlID>
+                        <ActDvEvRef>0</ActDvEvRef>
+                        <Act_sKey />
+                        <Act_iKey1>0</Act_iKey1>
+                        <Act_iKey2>0</Act_iKey2>
+                        <ActControl_Label />
+                        <ActControl_Type>0</ActControl_Type>
+                    </TouchAction>
+                </Actions_DeActive>
+                <Actions_Change />
+                <StatusImages />
+                <StatusColors />
+                <SuppressAssociationAction>false</SuppressAssociationAction>
+            </obj>
+            <objtype>HSWidgetData</objtype>
+        </anyType>
+    </anyType>
+</ArrayOfAnyType>

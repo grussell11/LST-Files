@@ -1,0 +1,738 @@
+' Update History:
+'
+' 08-22-15: remove Multisensor and (Motion) from motion & sensor logs
+' 09-05-15: fix door lock log; strip Multisensor (Motion) from motion summary
+' 09-06-15: added 4 contact sensors
+' 09-13-15: set date last changed virtual devices for all devices (if present)
+' 09-13-15: temporarily disable lock log while locks not working
+' 09-13-15: start new At Home log
+' 09-14-15: format At Home log message
+' 09-22-15: look at logs for the past week for At Home logs
+' 10-30-15: added two light to Lights and one sensor to Sensors
+' 10-31-15: add new appliance & detector groups; re-enable lock log
+' 11-01-15: add new appliance & detector summary and event logs
+' 11-14-15: flip LOCKED/UNLOCKED logic for door lock
+' 11-21-15: fix logic determining if detector is OK
+' 11-21-15: add alarm trigger logic
+' 11-28-15: delay setting Alarm Triggered virtual device
+' 02-28-16: reversed LOCKED/UNLOCKED logic for door lock
+' 03-11-16: fixed Lock script logic and also changed STANDARD to GARY for code 3
+' 04-02-16: added new stairwell light
+' 04-08-16: updated alarm logic
+' 08-07-16: commented out print statements on weather and corrected door unlock logic
+' 10-01-16: update lock log translations for supporting different lock types
+' 10-08-16: update for alarm "insurance"
+' 10-09-16: add alarm activity log message
+
+Imports System.Net
+Imports System.Text
+Imports System.IO
+
+Public Sub Main(ByVal params As Object)
+End Sub
+
+
+'===================================================================
+' BEGIN Home-specific device names defined here
+'===================================================================
+Public lightDeviceNames() As String = { _
+    "Downstairs Livingroom Entryway lamp", _
+    "Downstairs Livingroom Front window left light" }
+
+' Set to True if activity from two unique motion and/or sensor
+' devices are required to trigger an alarm
+Public alarmInsuranceRequired As Boolean = False
+
+Public motionDeviceNames() As String = { _
+    "Downstairs Garage Motion sensor -motion", _
+    "Downstairs Front porch Motion sensor -motion" }
+
+Public sensorDeviceNames() As String = {}
+
+Public applianceDeviceNames() As String = {}
+
+Public detectorDeviceNames() As String = {}
+
+Public lockDeviceNames() As String = {}
+
+Public lockCodeTable() As String = {}
+'===================================================================
+' END
+'===================================================================
+
+'===================================================================
+' BEGIN Virtual device names defined here
+'===================================================================
+Public lightSummaryVirtualDeviceName As String = "Light Summary Status"
+Public motionSummaryDeviceVirtualDeviceName As String = "Motion Summary Device"
+Public motionSummaryTimeVirtualDeviceName As String = "Motion Summary Time"
+Public sensorSummaryVirtualDeviceName As String = "Sensor Summary Status"
+Public applianceSummaryVirtualDeviceName As String = "Appliance Summary Status"
+Public detectorSummaryVirtualDeviceName As String = "Detector Summary Status"
+Public logVirtualDeviceName As String = "Event Log"
+Public lightLogVirtualDeviceName As String = "Light Event Log"
+Public motionLogVirtualDeviceName As String = "Motion Event Log"
+Public sensorLogVirtualDeviceName As String = "Sensor Event Log"
+Public lockLogVirtualDeviceName As String = "Lock Event Log"
+Public applianceLogVirtualDeviceName As String = "Appliance Event Log"
+Public detectorLogVirtualDeviceName As String = "Detector Event Log"
+Public atHomeLogVirtualDeviceName As String = "At Home"
+
+Public alarmVirtualDeviceName As String = "Alarm"
+Public alarmPendingVirtualDeviceName As String = "Alarm Pending"
+Public alarmTriggeredVirtualDeviceName As String = "Alarm Triggered"
+'===================================================================
+' END
+'===================================================================
+
+
+Public CRLF As String = Chr(13) & Chr(10)
+
+'===================================================================
+'===================================================================
+' Call on "IF Any Device has a value that just changed" event
+'===================================================================
+'===================================================================
+Public Sub OnDeviceValueChange(ByVal params As Object)
+    ' CheckAlarm()
+
+    SetLightSummaryStatus()
+    SetMotionSummaryStatus()
+    'SetSensorSummaryStatus()
+    'SetApplianceSummaryStatus()
+    'SetDetectorSummaryStatus()
+
+    UpdateLogHistory()
+    'UpdateAtHomeLogHistory()
+End Sub
+
+'===================================================================
+' OnWeatherUpdate()
+
+' Get current temperature from OpenWeatherMap.org web service for 
+' specified zipcode and set "Current Temperature" virtual device
+'===================================================================
+Public Sub OnWeatherUpdate(ByVal params As Object)
+    Dim url As String = "http://api.openweathermap.org/data/2.5/weather?zip=92807,us&appid=5848c157fbd05e7820b5328c35274105"
+    Try
+        Dim request As WebRequest = WebRequest.Create(url)
+        request.Credentials = CredentialCache.DefaultCredentials
+        Dim response As WebResponse = request.GetResponse()
+        Dim streamReader As StreamReader = New StreamReader(response.GetResponseStream())
+        Dim responseText As String = streamReader.ReadToEnd()
+        ' hs.WriteLog("LiveSmart", url)
+        ' hs.WriteLog("LiveSmart", responseText)
+
+        Dim responseSplit() As String = responseText.Split(New Char() {","c, "{"c})
+        Dim n As Integer
+        For n = 0 To responseSplit.Length - 1
+        Dim search As String = """temp"":"
+        Dim index As Integer = responseSplit(n).IndexOf(search, StringComparison.OrdinalIgnoreCase)
+        If index >= 0 Then
+            Dim currentTemp As Double = Val(responseSplit(n).Substring(index + search.Length))
+            currentTemp = currentTemp * 9 / 5 - 459.67 
+            hs.SetDeviceStringByName("Current Temperature", currentTemp.ToString("N1") + " F", True)
+            hs.SetDeviceValueByName("Current Temperature", currentTemp)
+            Exit For
+        End If
+        Next n
+    Catch e As Exception
+        hs.WriteLog("LiveSmart", e.Message)
+    End Try
+End Sub
+
+'===================================================================
+Private Function GetDevicesWithActivityCount(ByVal deviceNames() As String, ByVal alarmSetTime As Date) As Integer
+    Dim devicesWithActivityCount As Integer
+    devicesWithActivityCount = 0
+
+    Try
+        Dim deviceCount As Integer
+        deviceCount = deviceNames.Length
+
+        Dim n As Integer
+        For n = 0 To deviceCount - 1
+            Dim deviceRef As Integer
+            deviceRef = hs.GetDeviceRefByName(deviceNames(n))
+            If deviceRef > 0 Then
+                Dim lastChanged As Date
+                lastChanged = hs.DeviceLastChangeRef(deviceRef)
+                If lastChanged > alarmSetTime Then
+                    devicesWithActivityCount = devicesWithActivityCount + 1
+                    hs.WriteLog("LiveSmart", String.Format("Activity reported from {0} at {1}", deviceNames(n), lastChanged.ToString("hh:mm:ss tt")))
+                End If
+            End If
+        Next n    
+    Catch e As Exception
+        hs.WriteLog("LiveSmart",  "GetDevicesWithActivityCount(): " + e.Message)
+    End Try
+    
+    Return devicesWithActivityCount
+End Function
+
+'===================================================================
+Private Sub CheckAlarm()
+    Dim VALUE_ON As Integer = 100
+    Dim VALUE_OFF As Integer = 0
+    Dim ALARM_BUFFER_TIME_SEC As Integer = 30
+
+    Try    
+        Dim alarmDeviceRef As Integer
+        alarmDeviceRef = hs.GetDeviceRefByName(alarmVirtualDeviceName)
+
+        If alarmDeviceRef > 0 Then
+            ' Alarm virtual device exists
+            Dim alarmValue As Integer
+            alarmValue = hs.DeviceValue(alarmDeviceRef)
+
+            If alarmValue = VALUE_ON Then
+                Dim alarmTriggeredDeviceRef As Integer
+                alarmTriggeredDeviceRef = hs.GetDeviceRefByName(alarmTriggeredVirtualDeviceName)
+                Dim alarmTriggeredValue As Integer
+                alarmTriggeredValue = hs.DeviceValue(alarmTriggeredDeviceRef)
+
+                If alarmTriggeredValue = VALUE_OFF Then
+                    Dim alarmPendingDeviceRef As Integer
+                    alarmPendingDeviceRef = hs.GetDeviceRefByName(alarmPendingVirtualDeviceName)
+                    Dim alarmPendingValue As Integer
+                    alarmPendingValue = hs.DeviceValue(alarmPendingDeviceRef)
+                    
+                    If alarmPendingValue = VALUE_OFF Then
+                        ' AlarmPending is OFF, check if any device has changed since Alarm was set + ALARM_BUFFER_TIME_SEC
+                        Dim alarmSetTime As Date
+                        alarmSetTime = hs.DeviceLastChangeRef(alarmDeviceRef)
+                        alarmSetTime = alarmSetTime.AddSeconds(ALARM_BUFFER_TIME_SEC)
+                        
+                        Dim activityDetectedDeviceCount As Integer
+                        activityDetectedDeviceCount = GetDevicesWithActivityCount(sensorDeviceNames, alarmSetTime)
+                        activityDetectedDeviceCount = activityDetectedDeviceCount + GetDevicesWithActivityCount(motionDeviceNames, alarmSetTime)
+                       
+                        If (alarmInsuranceRequired = False And activityDetectedDeviceCount > 0) Or (alarmInsuranceRequired = True And activityDetectedDeviceCount > 1) Then
+                            hs.WriteLog("LiveSmart", String.Format("Alarm is PENDING set by {0} devices showing activity", activityDetectedDeviceCount))
+                            hs.SetDeviceValueByName(alarmPendingVirtualDeviceName, VALUE_ON)
+                        End If
+                    Else
+                        ' AlarmPending is ON, check if it has been on for more than ALARM_BUFFER_TIME_SEC seconds
+                        Dim alarmPendingOverTime As Date
+                        alarmPendingOverTime = hs.DeviceLastChangeRef(alarmPendingDeviceRef)
+                        alarmPendingOverTime = alarmPendingOverTime.AddSeconds(ALARM_BUFFER_TIME_SEC)
+                        If Now > alarmPendingOverTime Then
+                            ' AlarmPending time is up, set AlarmTrigger to ON
+                            hs.WriteLog("LiveSmart", String.Format("Alarm is TRIGGERED"))
+                            hs.SetDeviceValueByName(alarmTriggeredVirtualDeviceName, VALUE_ON)
+                        End If
+                    End If
+                End If
+            End If
+        End If
+    Catch e As Exception
+        hs.WriteLog("LiveSmart", "CheckAlarm(): " + e.Message)
+    End Try
+End Sub
+
+'===================================================================
+' Updates the last changed virtual device for a given device to a
+' date & time the device was last updated.
+Private Sub UpdateLastChangedVirtualDevice(ByVal deviceName As String)
+    Dim virtualDeviceName As String = ""
+    Dim virtualDeviceRef As Integer = 0
+
+    virtualDeviceName = deviceName + " Last Changed"
+    virtualDeviceRef = hs.GetDeviceRefByName(virtualDeviceName)
+
+    If virtualDeviceRef > 0 Then
+        Dim valueTimeLastChanged As Integer
+        valueTimeLastChanged = hs.DeviceTimeByName(deviceName)
+
+        Dim dateTimeLastChanged As DateTime
+        dateTimeLastChanged = DateTime.Now.AddMinutes(-valueTimeLastChanged)
+
+        Dim timeLastChanged As String
+        timeLastChanged = dateTimeLastChanged.ToString("ddd MM/dd hh:mm tt")
+
+        hs.SetDeviceValueByName(virtualDeviceName, valueTimeLastChanged)
+        hs.SetDeviceStringByName(virtualDeviceName, timeLastChanged, True)
+    End If
+End Sub
+
+'===================================================================
+' Sets the status summary virtual device to a string reflecting the
+' current status of the specified light devices.
+Private Sub SetLightSummaryStatus()
+    Dim summary As String = ""
+    Dim summaryValue As Integer = 0
+    Dim devicesOn As Integer = 0
+    Dim deviceCount As Integer
+    deviceCount = lightDeviceNames.Length
+
+    Dim n As Integer
+    For n = 0 To deviceCount - 1
+        Dim deviceRef As Integer
+        deviceRef = hs.GetDeviceRefByName(lightDeviceNames(n))
+        If deviceRef > 0 Then
+            Dim value As Integer
+            value = hs.DeviceValue(deviceRef)
+            If value > 0 Then
+                If devicesOn > 0 Then
+                    summary = summary + ", "
+                End If
+                summary = summary + lightDeviceNames(n)
+                devicesOn = devicesOn + 1
+            End If
+            UpdateLastChangedVirtualDevice(lightDeviceNames(n))
+        Else
+            hs.WriteLog("LiveSmart", String.Format("Warning: '{0}' device not found", lightDeviceNames(n)))
+        End If
+    Next n
+
+    If devicesOn = 0 Then
+        summary = "All lamps are off"
+        summaryValue = 0
+    ElseIf devicesOn = deviceCount Then
+        summary = "All lamps are on"
+        summaryValue = 99
+    Else
+        summary = summary + " on, all others off"
+        summaryValue = 99
+    End If
+
+    hs.SetDeviceValueByName(lightSummaryVirtualDeviceName, summaryValue)
+    hs.SetDeviceStringByName(lightSummaryVirtualDeviceName, summary, True)
+End Sub
+
+'===================================================================
+' Sets the status summary virtual device to a string reflecting the
+' current status of the specified motion sensor devices.
+Private Sub SetMotionSummaryStatus()
+    Dim deviceLastChanged As String = ""
+    Dim minLastChanged As Integer
+    minLastChanged = Integer.MaxValue
+    Dim devices As Integer = 0
+    Dim deviceCount As Integer
+    deviceCount = motionDeviceNames.Length
+
+    Dim n As Integer
+    For n = 0 To deviceCount - 1
+        Dim deviceRef As Integer
+        deviceRef = hs.GetDeviceRefByName(motionDeviceNames(n))
+        If deviceRef > 0 Then
+            Dim value As Integer
+            value = hs.DeviceValue(deviceRef)
+            If value <> 0 Then
+                Dim lastChanged As Integer
+                lastChanged = hs.DeviceTimeByName(motionDeviceNames(n))
+                If lastChanged < minLastChanged Then
+                    deviceLastChanged = motionDeviceNames(n)
+                    minLastChanged = lastChanged
+                End If
+                devices = devices + 1
+            End If
+            UpdateLastChangedVirtualDevice(motionDeviceNames(n))
+        Else
+            hs.WriteLog("LiveSmart", String.Format("Warning: '{0}' device not found", motionDeviceNames(n)))
+        End If
+    Next n
+
+    If devices > 0 Then
+        Dim dateTimeLastChanged As DateTime
+        dateTimeLastChanged = DateTime.Now.AddMinutes(-minLastChanged)
+        Dim timeLastChanged As String
+        timeLastChanged = dateTimeLastChanged.ToString("ddd MM/dd hh:mm tt")
+
+        hs.SetDeviceStringByName(motionSummaryDeviceVirtualDeviceName, StripParenthesisFromString(deviceLastChanged), True)
+        hs.SetDeviceStringByName(motionSummaryTimeVirtualDeviceName, timeLastChanged, True)
+    End If
+End Sub
+
+'===================================================================
+' Sets the status summary virtual device To a String reflecting the
+' current status of the specified sensor devices.
+Private Sub SetSensorSummaryStatus()
+    Dim summary As String = ""
+    Dim devicesOn As Integer = 0
+    Dim minLastChanged As Integer
+    minLastChanged = Integer.MaxValue
+    Dim deviceCount As Integer
+    deviceCount = sensorDeviceNames.Length
+
+    Dim n As Integer
+    For n = 0 To deviceCount - 1
+        Dim deviceRef As Integer
+        deviceRef = hs.GetDeviceRefByName(sensorDeviceNames(n))
+        If deviceRef > 0 Then
+            Dim value As Integer
+            value = hs.DeviceValue(deviceRef)
+            If value > 0 Then
+                devicesOn = devicesOn + 1
+            End If
+            Dim lastChanged As Integer
+            lastChanged = hs.DeviceTimeByName(sensorDeviceNames(n))
+            If lastChanged < minLastChanged Then
+                minLastChanged = lastChanged
+            End If
+            UpdateLastChangedVirtualDevice(sensorDeviceNames(n))
+        Else
+            hs.WriteLog("LiveSmart", String.Format("Warning: '{0}' device not found", sensorDeviceNames(n)))
+        End If
+    Next n
+
+    If devicesOn = 0 Then
+        summary = "All Closed"
+    ElseIf devicesOn = deviceCount Then
+        summary = "All Open"
+    Else
+        summary = devicesOn.ToString() + " Open"
+    End If
+
+    hs.SetDeviceStringByName(sensorSummaryVirtualDeviceName, summary, True)
+End Sub
+
+'===================================================================
+' Sets the status summary virtual device to a string reflecting the
+' current status of the specified appliance devices.
+Private Sub SetApplianceSummaryStatus()
+    Dim summary As String = ""
+    Dim summaryValue As Integer = 0
+    Dim devicesOn As Integer = 0
+    Dim deviceCount As Integer
+    deviceCount = applianceDeviceNames.Length
+
+    Dim n As Integer
+    For n = 0 To deviceCount - 1
+        Dim deviceRef As Integer
+        deviceRef = hs.GetDeviceRefByName(applianceDeviceNames(n))
+        If deviceRef > 0 Then
+            Dim value As Integer
+            value = hs.DeviceValue(deviceRef)
+            If value > 0 Then
+                If devicesOn > 0 Then
+                    summary = summary + ", "
+                End If
+                summary = summary + applianceDeviceNames(n)
+                devicesOn = devicesOn + 1
+            End If
+            UpdateLastChangedVirtualDevice(applianceDeviceNames(n))
+        Else
+            hs.WriteLog("LiveSmart", String.Format("Warning: '{0}' device not found", applianceDeviceNames(n)))
+        End If
+    Next n
+
+    If devicesOn = 0 Then
+        summary = "All appliances are off"
+        summaryValue = 0
+    ElseIf devicesOn = deviceCount Then
+        summary = "All appliances are on"
+        summaryValue = 99
+    Else
+        summary = summary + " on, all others off"
+        summaryValue = 99
+    End If
+
+    hs.SetDeviceValueByName(applianceSummaryVirtualDeviceName, summaryValue)
+    hs.SetDeviceStringByName(applianceSummaryVirtualDeviceName, summary, True)
+End Sub
+
+'===================================================================
+' Sets the status summary virtual device to a string reflecting the
+' current status of the specified detectors.
+Private Sub SetDetectorSummaryStatus()
+    Dim summary As String = ""
+    Dim summaryValue As Integer = 0
+    Dim devicesOn As Integer = 0
+    Dim deviceCount As Integer
+    deviceCount = detectorDeviceNames.Length
+
+    Dim n As Integer
+    For n = 0 To deviceCount - 1
+        Dim deviceRef As Integer
+        deviceRef = hs.GetDeviceRefByName(detectorDeviceNames(n))
+        If deviceRef > 0 Then
+            Dim value As Integer
+            value = hs.DeviceValue(deviceRef)
+            ' Smoke NOT OK values: 1.255, 2.255 -- Water NOT OK value: 255
+            If value = 255 Or value = 1.255 Or value = 2.255 Then
+               If devicesOn > 0 Then
+                    summary = summary + ", "
+                End If
+                summary = summary + StripParenthesisFromString(detectorDeviceNames(n))
+                devicesOn = devicesOn + 1
+            End If
+            UpdateLastChangedVirtualDevice(detectorDeviceNames(n))
+        Else
+            hs.WriteLog("LiveSmart", String.Format("Warning: '{0}' device not found", detectorDeviceNames(n)))
+        End If
+    Next n
+
+    If devicesOn = 0 Then
+        summary = "All detectors are OK"
+        summaryValue = 0
+    Else
+        summary = summary + " set to ALARM, all others OK"
+        summaryValue = 99
+    End If
+
+    hs.SetDeviceValueByName(detectorSummaryVirtualDeviceName, summaryValue)
+    hs.SetDeviceStringByName(detectorSummaryVirtualDeviceName, summary, True)
+End Sub
+
+'===================================================================
+' Logging functions
+'===================================================================
+Private Function CheckLogMessageForDeviceName(ByVal logMessage As String, ByVal names() As String, ByRef index As Integer) As Boolean
+    Dim n As Integer
+    For n = 0 To names.Length - 1
+        If logMessage.Contains(names(n)) Then
+            index = n
+            Return True
+        End If
+    Next n
+
+    index = -1
+    Return False
+End Function
+
+'===================================================================
+Private Function StripEnclosedCharactersFromString(ByVal s As String, ByVal cOpen As String, ByVal cClose As String) As String
+    Dim stripped As String = ""
+    Dim inTag As Boolean = False
+
+    Dim n As Integer
+    For n = 0 To s.Length - 1
+        Dim c As String
+        c = s.Substring(n, 1)
+        If inTag = True Then
+            If c = cClose Then
+                inTag = False
+            End If
+        Else
+            If c = cOpen Then
+                inTag = True
+            Else
+                stripped = stripped & c
+            End If
+        End If
+    Next n
+
+    Return stripped
+End Function
+
+'===================================================================
+Private Function StripHtmlFromString(ByVal s As String) As String
+    Return StripEnclosedCharactersFromString(s, "<", ">")
+End Function
+
+'===================================================================
+Private Function StripParenthesisFromString(ByVal s As String) As String
+    Return StripEnclosedCharactersFromString(s, "(", ")")
+End Function
+
+'===================================================================
+Private Function FormatLightLogMessage(ByVal log As HomeSeerAPI.LogEntry, ByVal name As String) As String
+    Dim message As String
+    Dim onOff As String
+    Dim logText As String
+    logText = StripHtmlFromString(log.LogText)
+    If logText.Contains("Set to 0") Then
+        onOff = "OFF"
+    Else
+        onOff = "ON"
+    End If
+    message = String.Format("{0} was turned {1} at {2} on {3}", name.ToUpper(), onOff, log.LogTime.ToString("hh:mm tt"), log.LogTime.ToString("MMM-dd"))
+    Return message
+End Function
+
+'===================================================================
+Private Function FormatMotionLogMessage(ByVal log As HomeSeerAPI.LogEntry, ByVal name As String) As String
+    Dim message As String
+    Dim logText As String
+    logText = StripHtmlFromString(log.LogText)
+    If logText.Contains("Set to On/Open/Motion") Then
+        message = String.Format("Motion detected in {0} at {1} on {2}", StripParenthesisFromString(name.ToUpper()).Replace(" MULTISENSOR",""), log.LogTime.ToString("hh:mm tt"), log.LogTime.ToString("MMM-dd"))
+    Else
+        message = ""
+    End If
+    Return message
+End Function
+
+'===================================================================
+Private Function FormatSensorLogMessage(ByVal log As HomeSeerAPI.LogEntry, ByVal name As String) As String
+    Dim message As String
+    Dim state As String
+    Dim logText As String
+    logText = StripHtmlFromString(log.LogText)
+    If logText.Contains("Set to On/Open/Motion") Then
+        state = "OPEN"
+    Else
+        state = "CLOSED"
+    End If
+    message = String.Format("{0} was {1} at {2} on {3}", StripParenthesisFromString(name.ToUpper()).Replace(" MULTISENSOR",""), state, log.LogTime.ToString("hh:mm tt"), log.LogTime.ToString("MMM-dd"))
+    Return message
+End Function
+
+'===================================================================
+Private Function TranslateLockCode(ByVal s) As String
+    Dim translation As String
+    translation = ""
+
+    Try
+        Dim search As String
+        Dim index As Integer
+        Dim codeStartIndex As Integer
+        Dim n As Integer
+        Dim lockCodeTableParts() As String
+        search = "set to "
+        index = s.IndexOf(search, StringComparison.OrdinalIgnoreCase)
+        codeStartIndex = index + search.Length
+        If index >= 0 And s.Length > codeStartIndex Then
+            For n = 0 To lockCodeTable.Length - 1
+                lockCodeTableParts = lockCodeTable(n).Split(New Char() {","c})
+                If lockCodeTableParts.Length >= 2 Then
+                    If lockCodeTableParts(0).StartsWith(s.Substring(codeStartIndex)) Then
+                        translation = lockCodeTableParts(1)
+                        Exit For
+                    End If
+                End If
+            Next n
+        End If
+    Catch e As Exception
+        hs.WriteLog("LiveSmart", e.Message)
+    End Try
+
+    Return translation
+End Function
+
+'===================================================================
+Private Function FormatLockLogMessage(ByVal log As HomeSeerAPI.LogEntry, ByVal name As String) As String
+    Dim message As String
+    Dim logText As String
+    Dim translation As String
+    message = ""
+    logText = StripHtmlFromString(log.LogText)
+    translation = TranslateLockCode(logText)
+    If translation <> "" Then
+        message = String.Format("{0} was {1} at {2} on {3}", name.ToUpper(), translation, log.LogTime.ToString("hh:mm tt"), log.LogTime.ToString("MMM-dd"))
+    End If
+    Return message
+End Function
+
+'===================================================================
+Private Function FormatApplianceLogMessage(ByVal log As HomeSeerAPI.LogEntry, ByVal name As String) As String
+    Dim message As String
+    Dim onOff As String
+    Dim logText As String
+    logText = StripHtmlFromString(log.LogText)
+    If logText.Contains("Set to 0") Then
+        onOff = "OFF"
+    Else
+        onOff = "ON"
+    End If
+    message = String.Format("{0} was turned {1} at {2} on {3}", name.ToUpper(), onOff, log.LogTime.ToString("hh:mm tt"), log.LogTime.ToString("MMM-dd"))
+    Return message
+End Function
+
+'===================================================================
+Private Function FormatDetectorLogMessage(ByVal log As HomeSeerAPI.LogEntry, ByVal name As String) As String
+    Dim message As String
+    Dim onOff As String
+    Dim logText As String
+    logText = StripHtmlFromString(log.LogText)
+    If logText.Contains("255") Then
+        onOff = "ALARM"
+    Else
+        onOff = "OK"
+    End If
+    message = String.Format("{0} set to {1} at {2} on {3}", StripParenthesisFromString(name.ToUpper()), onOff, log.LogTime.ToString("hh:mm tt"), log.LogTime.ToString("MMM-dd"))
+    Return message
+End Function
+
+'===================================================================
+Private Sub UpdateLogHistory()
+    Dim logMessages As String
+    Dim lightMessages As String
+    Dim motionMessages As String
+    Dim sensorMessages As String
+    Dim lockMessages As String
+    Dim applianceMessages As String
+    Dim detectorMessages As String
+    Dim Logs() As HomeSeerAPI.LogEntry
+    Dim logCount As Integer = 0
+    Dim lastLogUpdate As DateTime
+    lastLogUpdate = Now.AddDays(-1)
+
+    Logs = hs.GetLog_FullFilter(lastLogUpdate, DateTime.MaxValue, "Z-Wave", "", False, -1, -1, True, -1, True)
+    If Logs IsNot Nothing Then
+        logCount = Logs.Length
+    End If
+
+    Dim n As Integer
+    For n = 0 To logCount - 1
+        Dim log As HomeSeerAPI.LogEntry
+        Dim nameIndex As Integer
+        Dim message As String
+        log = Logs(n)
+        If CheckLogMessageForDeviceName(log.LogText, lightDeviceNames, nameIndex) Then
+            message = FormatLightLogMessage(log, lightDeviceNames(nameIndex))
+            logMessages = message & CRLF & logMessages & CRLF
+            lightMessages = message & CRLF & lightMessages & CRLF
+        ElseIf CheckLogMessageForDeviceName(log.LogText, motionDeviceNames, nameIndex) Then
+            message = FormatMotionLogMessage(log, motionDeviceNames(nameIndex))
+            If message <> "" Then
+                logMessages = message & CRLF & logMessages & CRLF
+                motionMessages = message & CRLF & motionMessages & CRLF
+            End If
+        ElseIf CheckLogMessageForDeviceName(log.LogText, sensorDeviceNames, nameIndex) Then
+            message = FormatSensorLogMessage(log, sensorDeviceNames(nameIndex))
+            logMessages = message & CRLF & logMessages & CRLF
+            sensorMessages = message & CRLF & sensorMessages & CRLF
+        ElseIf CheckLogMessageForDeviceName(log.LogText, lockDeviceNames, nameIndex) Then
+            message = FormatLockLogMessage(log, lockDeviceNames(nameIndex))
+            If message <> "" Then
+                logMessages = message & CRLF & logMessages & CRLF
+                lockMessages = message & CRLF & lockMessages & CRLF
+            End If
+        ElseIf CheckLogMessageForDeviceName(log.LogText, applianceDeviceNames, nameIndex) Then
+            message = FormatApplianceLogMessage(log, applianceDeviceNames(nameIndex))
+            logMessages = message & CRLF & logMessages & CRLF
+            applianceMessages = message & CRLF & applianceMessages & CRLF
+        ElseIf CheckLogMessageForDeviceName(log.LogText, detectorDeviceNames, nameIndex) Then
+            message = FormatDetectorLogMessage(log, detectorDeviceNames(nameIndex))
+            logMessages = message & CRLF & logMessages & CRLF
+            detectorMessages = message & CRLF & detectorMessages & CRLF
+        End If
+    Next n
+
+    hs.SetDeviceStringByName(logVirtualDeviceName, logMessages, True)
+    hs.SetDeviceStringByName(lightLogVirtualDeviceName, lightMessages, True)
+    hs.SetDeviceStringByName(motionLogVirtualDeviceName, motionMessages, True)
+    hs.SetDeviceStringByName(sensorLogVirtualDeviceName, sensorMessages, True)
+    hs.SetDeviceStringByName(lockLogVirtualDeviceName, lockMessages, True)
+    hs.SetDeviceStringByName(applianceLogVirtualDeviceName, applianceMessages, True)
+    hs.SetDeviceStringByName(detectorLogVirtualDeviceName, detectorMessages, True)
+End Sub
+
+'===================================================================
+Private Sub UpdateAtHomeLogHistory()
+    Dim atHomeMessages As String
+    Dim Logs() As HomeSeerAPI.LogEntry
+    Dim logCount As Integer = 0
+    Dim lastLogUpdate As DateTime
+    lastLogUpdate = Now.AddDays(-7)
+
+    Logs = hs.GetLog_FullFilter(lastLogUpdate, DateTime.MaxValue, "Device Control", "%Arrive Home%", False, -1, -1, True, -1, True)
+    If Logs IsNot Nothing Then
+        logCount = Logs.Length
+    End If
+
+    Dim n As Integer
+    For n = 0 To logCount - 1
+        Dim log As HomeSeerAPI.LogEntry
+        log = Logs(n)
+        Dim message As String
+        message = String.Format("{0} at {1} on {2}", StripParenthesisFromString(log.LogText.Replace("Device: Virtual Virtual ","")), log.LogTime.ToString("hh:mm tt"), log.LogTime.ToString("MMM-dd"))
+        message = message.Replace("Arrive Home to Off ", "has left home ")
+        message = message.Replace("Arrive Home to On ", "has arrived home ")
+        atHomeMessages = message & CRLF & atHomeMessages
+    Next n
+
+    hs.SetDeviceStringByName(atHomeLogVirtualDeviceName, atHomeMessages, True)
+End Sub
